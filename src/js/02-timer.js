@@ -49,7 +49,7 @@ function startTimer() {
 
         }
         else {
-            timeCounter = onDate - currentDate;
+           timeCounter = onDate - currentDate;
             convertMs(timeCounter);
             startTimerEl.setAttribute("disabled", "disabled");
             dataInputEl.setAttribute("disabled", "disabled");
