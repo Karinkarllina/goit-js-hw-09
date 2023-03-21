@@ -19,6 +19,7 @@ let intervalId = null;
 let currentDate = null;
 let timeCounter = null;
 
+
 const options = {
   enableTime: true,
   time_24hr: true,
@@ -45,7 +46,7 @@ function startTimer() {
           clearInterval(intervalId);
           startTimerEl.setAttribute("disabled", "disabled");
           dataInputEl.removeAttribute("disabled", "disabled");
-          return
+          return 
 
         }
         else {
