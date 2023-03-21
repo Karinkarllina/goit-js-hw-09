@@ -17,6 +17,7 @@ startTimerEl.addEventListener('click', startTimer);
 let onDate = null;
 let intervalId = null;
 let currentDate = null;
+let timeCounter = null;
 
 const options = {
   enableTime: true,
